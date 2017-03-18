@@ -1,0 +1,2 @@
+# erdaldalkiran.github.io
+blog
