@@ -26,7 +26,7 @@ $ docker run -d  --name mongo_1 -p 27017:27017 mongo
 ```
 ### explanations of options 
 * -d               : to run mongo as a daemon. if we omit this option, after running the container, we'll be prompted to the container's logs.
-* --name mongo_1   : to give an user friendly name to the container. 
+* --name mongo_1   : to give a user friendly name to the container. 
 * -p 27017:27017   : by default mongo's docker image is configured to accept connections through port 27017. with this option, we are redirecting connections coming to our local hachine's port 27017 to the container we run. 
 
 3. by using robomongo, we are able to connect mongodb now. to connect to the mongodb, type 127.0.0.1:27017 in the address field.  
