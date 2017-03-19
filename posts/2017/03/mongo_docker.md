@@ -2,7 +2,7 @@
 running mongodb on local machine by using mongo's docker image
 
 ## Steps
-1.pull mongo image from dockerhub
+1. pull mongo image from dockerhub
 ```bash
 $ docker pull mongo
 Using default tag: latest
